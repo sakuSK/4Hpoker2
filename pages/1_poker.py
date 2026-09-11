@@ -1,5 +1,6 @@
 import streamlit as st
 
+i=1
 
 with st.sidebar:
     st.page_link("main.py", label="ホーム", icon="❤️")
@@ -10,10 +11,8 @@ with st.sidebar:
 st.title("ポーカー")
 
 st.write("")
-st.write("coming soon!")
 st.write("")
 st.write("")
-"""
 st.write("ポーカーはローリスクローリターンとハイリスクハイリターンの２台用意しています。")
 st.write("初心者はローリスクローリターン台を強くお勧めいたします。")  
 st.header("ゲームの流れ（両卓共通）")
@@ -32,8 +31,8 @@ st.write("")
 st.write("")
 st.write("")
 st.write("")
-"""
 st.write("")
 st.write("")
 st.write("")
 st.write("")
+st.image("/Users/saku/Downloads/役表.jpg", caption="役表")
