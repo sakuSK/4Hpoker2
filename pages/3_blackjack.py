@@ -1,9 +1,5 @@
 import streamlit as st
 
-# from main import titles
-
-# st.set_page_config(page_title="ブラックジャック", page_icon="♣️")
-# titles()
 
 with st.sidebar:
     st.page_link("main.py", label="ホーム", icon="❤️")
