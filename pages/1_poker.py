@@ -36,6 +36,6 @@ st.write("役が同じ場合カードの数字にて勝敗をつけるものと�
 st.write("また数字が同じだった場合スート（記号）にて勝敗を決める。その場合♤→♧→♢→♡の順で強いものとする。")
 st.write("それでも決着がつかない場合はじゃんけんにて勝敗を分ける。")
 st.write("役のストレートを作る際、【A、2、3、4、5】は認めない。")
-"""
-st.image("/Users/saku/Desktop/4Hpoker/役表.jpg", caption="役表")
-"""
+
+st.image("/Users/saku/Desktop/4Hpoker/pages/役表.jpg", caption="役表")
+
