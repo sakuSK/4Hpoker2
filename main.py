@@ -2,9 +2,8 @@ import streamlit as st
 
 st.title("4H ゲームルール")
 st.markdown(''':rainbow[BIG DREAM] ''')
-st.write("ようこそ！")
+st.subheader("ようこそ！")
 st.write("右上のマークを押し、ゲーム名を選択するとルールの確認ができます！")
-st.write("")
 st.write("")
 st.page_link("https://www.instagram.com/nagoya.4h2026?stkn=MWkyZ2pyMXZ6OWYyZg%3D%3D&utm_source=qr", label="instagramのフォローはコチラからお願いします!" )
 st.write("このサイトに不具合、お気づきの点がございましたらコチラにご連絡ください。")
